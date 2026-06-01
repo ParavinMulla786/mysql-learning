@@ -27,3 +27,19 @@ ORDER BY Population DESC;
 SELECT SUM(Population) AS total_population
 FROM country
 WHERE Continent = 'Asia';
+
+select avg(Population) As AveragePopulation
+ from city 
+ where CountryCode ='USA';
+ 
+ select continent , count(*) as numberofcountries 
+ from country 
+ group by continent;
+ 
+ SELECT
+    city.name AS cityname,
+    country.name AS countryname
+FROM city
+JOIN country
+ON city.countrycode = country.code;
+ 
