@@ -42,4 +42,7 @@ select avg(Population) As AveragePopulation
 FROM city
 JOIN country
 ON city.countrycode = country.code;
+
+
+select countr
  
