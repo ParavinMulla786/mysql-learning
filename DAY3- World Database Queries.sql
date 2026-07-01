@@ -43,6 +43,7 @@ FROM city
 JOIN country
 ON city.countrycode = country.code;
 
-
-select countr
- 
+SELECT Name, Population, Code AS CountryCode, Continent
+FROM country
+WHERE Population > 10000000
+ORDER BY Population DESC;

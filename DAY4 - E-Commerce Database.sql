@@ -74,3 +74,19 @@ values
 ('Beauty');
 
 
+INSERT INTO products(product_name, price, stock, category_id)
+VALUES
+('T-Shirt', 799.00, 50, 1),
+('Laptop', 55000.00, 10, 2),
+('Java Programming Book', 499.00, 20, 3),
+('Microwave Oven', 8500.00, 8, 4),
+('Face Wash', 299.00, 30, 5);
+
+
+insert into cart(user_id ,product_id,quantity)
+VALUES
+(1, 1, 2),
+(2, 2, 1),
+(3, 3, 3),
+(4, 4, 1),
+(5, 5, 2);
