@@ -14,6 +14,8 @@ CREATE TABLE salaries (
 
 
 );
+
+-- //Create Table Employee
 CREATE TABLE employees (
     employee_id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(50) NOT NULL,
